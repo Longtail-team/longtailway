@@ -9,15 +9,39 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
+  "tabs": [
+    {
+      "tab": "블로그",
+      "groups": [
+        {
+          "group": "전체 글",
+          "pages": [
+            "blog/welcome",
+            "blog/sample-post"
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "추후 업데이트",
+      "groups": [
+        {
+          "group": "준비 중",
+          "pages": ["section-two/coming-soon"]
+        }
+      ]
+    },
+    {
+      "tab": "추후 업데이트 ",
+      "groups": [
+        {
+          "group": "준비 중",
+          "pages": ["section-three/coming-soon"]
+        }
+      ]
+    }
+  ]
+}
     "global": {
       "anchors": [
         {
