@@ -5,7 +5,7 @@
 /* 네비게이션 바 로고 크기 키우기
    숫자(44px)를 올리면 더 커지고, 내리면 작아집니다. */
 img[src*="logo"] {
-  height: 44px !important;
-  max-height: 44px !important;
+  height: 66px !important;
+  max-height: 66px !important;
   width: auto !important;
 }
